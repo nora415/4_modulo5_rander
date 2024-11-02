@@ -1,0 +1,143 @@
+<br>
+<br>
+<h1> Bienvenidos a Hogwarts </h1>
+<br>
+<h2>¿Cómo se creó Hogwarts?</h2>
+<p>El Colegio Hogwarts de Magia y Hechicería fue fundado hace mil años por cuatro de los más brillantes magos y brujas de la época: Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw y Salazar Slytherin. Se sentaron las bases para la única escuela de magos en Gran Bretaña, Hogwarts.</p>
+<br>
+<br>
+<%= image_tag 'https://wallpapers.com/images/hd/harry-potter-background-kbrb6vlqr8ych08x.jpg', class: "imagen" %>
+<br>
+<br>
+<br>
+<h1> Conoce a los alumnos de Hogwarts: </h1>
+<br>
+
+  <% @characters.each do |p| %>
+
+
+  <div class="row-card">
+    <br>
+     <h2> Nombre: <%= p.name %></h2>
+     <br>
+      <h4> Localización: <%= p.location %></h4>
+      <<h4> Casa: <%= p.house%></h4>
+      <br>
+     <% end%>
+     <br>
+  </div>
+
+<h2>Nombre: Vincent Crabbe, Sr</h2>
+<h4>Localización: St. Mundo's Hospital for Magical Maladies and Injuries</h4>
+<h4>Casa: Slytherin</h4>
+<br>
+<br>
+<h2>Nombre: Gilderoy Lockhart</h2>
+<h4>Localización: Gambol and Japes</h4>
+<h4>Casa: Ravenclaw</h4>
+<br>
+<br>
+<h2>Nombre: Mafalda Hoplkirk</h2>
+<h4>Localización: Gringotts Wizarding </h4>
+<h4>Casa: Hufflepuff</h4>
+<br>
+<br>
+<h2>Nombre: Newt Scamander</h2>
+<h4>Localización: Madam Puddiffpr'</h4>
+<h4>Casa: Gryffindor</h4>
+<br>
+<br>
+<h2>Nombre: Tom Marvolo Riddle</h2>
+<h4>Localización: Gladrags Wizardwear </h4>
+<h4>Casa: Ravenclaw</h4>
+<br>
+<br>
+<h2>Nombre: Rowena Ravenclaw</h2>
+<h4>Localización: Gladrags Wizardwear</h4>
+<h4>Casa: Revenclaw</h4>
+<br>
+<br>
+<h2>Nombre: Antioch Peverell</h2>
+<h4>Localización: Beauxbatons</h4>
+<h4>Casa: Gryffindor</h4>
+<br>
+<br>
+<h2>Nombre: Mr. Borgin </h2>
+<h4>Localización: Uagadou</h4>
+<h4>Casa: Gryffindor</h4>
+<br>
+<br>
+<h2>Nombre: Dirk Cresswell</h2>
+<h4>Localización: Dervish & Banges/h3>
+<h4>Casa: Ravenclaw</h4>
+<br>
+<br>
+<h2>Nombre: Rolanda Hooch</h2>
+<h4>Localización: Borgin & Burker</h4>
+<h4>Casa: Ravenclaw</h4>
+<br>
+<br>
+<h2>Nombre: Great Aunt Muriel</h2>
+<h4>Localización: Scrivenshaft's Quill Shop</h4>
+<h4>Casa: Gryffindor</h4>
+<br>
+<br>
+<h2>Nombre: Merope Gaunt  </h2>
+<h4>Localización: Malfoy Manor</h4>
+<h4>Casa: Gryffindor</h4>
+<br>
+<br>
+<h2>Nombre: Horace Slughorn </h2>
+<h4>Localización: Weasleys' Wizard</h4>
+<h4>Casa: Gryffindor</h4>
+<br>
+<br>
+<h2>Nombre: Walden Macnair</h2>
+<h4>Localización: Borgin & Burkes </h4>
+<h4>Casa: Gryffindor</h4>
+<br>
+<br>
+
+<h1>Las casas del Colegio Hogwarts de Magia y Hechicería en la saga de Harry Potter son</h1>
+<br>
+<br>
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="https://wallpapers.com/images/featured/gryffindor-raqo20208vymv5p9.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Gryffindor</h5>
+        <p class="card-text">Valora la valentía, la disposición, el coraje y la caballerosidad. Su animal representativo es el león.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://wallpapers.com/images/hd/hufflepuff-badger-emblem-harry-potter-laptop-qsrdb8b4lnakznno.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Hufflepuff</h5>
+        <p class="card-text">Valora la lealtad, la honestidad y la capacidad de trabajo. Sus estudiantes son amigables y sin prejuicios. Sus colores son el amarillo y el negro, y su animal representativo es el tejón. </p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://wallpapers.com/images/featured/ravenclaw-0biazn74ja08p3un.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Ravenclaw</h5>
+        <p class="card-text">Busca alumnos inteligentes, creativos y curiosos. Su animal representativo es el águila.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://images6.alphacoders.com/556/thumb-1920-556494.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Slytherin</h5>
+        <p class="card-text">Se caracteriza por la ambición y la astucia. Sus alumnos utilizan cualquier medio para lograr sus fines. Su animal representativo es la serpiente. </p>
+      </div>
+    </div>
+  </div>
+</div>
+
