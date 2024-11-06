@@ -10,11 +10,10 @@
 
 
 10.times do |i|
-  Character.create
-  (name: Faker::Movies::HarryPotter.character, 
-  location: Faker::Movies::HarryPotter.location, 
-  house: Faker::Movies::HarryPotter.house )
-  
-end
-
+    Character.create(
+      name: Faker::Movies::HarryPotter.character,
+      location: Faker::Movies::HarryPotter.location,
+      house: Faker::Movies::HarryPotter.house)
+    
+  end
 puts "personaje de Harry Potter"
